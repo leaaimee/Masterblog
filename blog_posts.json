@@ -1,4 +1,20 @@
 [
-    {"id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."},
-    {"id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}
+    {
+        "id": 1,
+        "author": "John Doe",
+        "title": "First Post",
+        "content": "This is my first post."
+    },
+    {
+        "id": 2,
+        "author": "Jane Doe",
+        "title": "Second Post",
+        "content": "This is another post."
+    },
+    {
+        "id": 3,
+        "title": "Victim 2117",
+        "author": "Adler Olsen",
+        "content": "In the heart-pounding next installment of the New York Times and #1 internationally bestselling Department Q series, a terrifying international investigation reveals the complex backstory of one of the department's own\u2014the enigmatic Assad."
+    }
 ]
