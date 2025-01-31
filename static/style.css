@@ -1,3 +1,5 @@
+/* personal css enhancement added below the free space within the block */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #F5F5F5;
@@ -8,6 +10,9 @@ body {
 h1 {
     text-align: center;
     color: #4F4F4F;
+
+    font-size: 28px;
+    margin-bottom: 25px;
 }
 
 .post {
@@ -16,12 +21,68 @@ h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .post h2 {
     margin-top: 0;
+
+    font-size: 22px;
 }
 
 .post p {
     margin: 10px 0;
+
+    line-height: 1.5;
+}
+
+/* Further custom enhancements */
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #EEE;
+}
+
+.navbar a:hover {
+    background-color: #DDD;
+}
+
+.post a {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.like-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.update-btn {
+    background-color: #FFA500;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #FF4D4D;
+    color: white;
+}
+
+.like-btn:hover, .update-btn:hover, .delete-btn:hover {
+    opacity: 0.8;
 }
